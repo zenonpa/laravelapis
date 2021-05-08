@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include header.html %}
+  </head>
+  <body class="bd-docs" data-spy="scroll" data-target=".bd-sidenav-active">
+    <p>Redirecting to new domain...</p>
+
+    {% if page.layout == "simple" %} {{ content }} {% else %}
+    <main id="content" role="main">{{ content }}</main>
+    {% endif %}
+  </body>
+</html>

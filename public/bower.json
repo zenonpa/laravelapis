@@ -1,0 +1,14 @@
+{
+  "name": "laravelapis",
+  "homepage": "https://github.com/zenonpa/laravelapis",
+  "authors": [
+    "Zenon Paredes <zenonpa@gmail.com>"
+  ],
+  "description": "Laravel Apis",
+  "main": "",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.0.0",
+    "bootstrap-material-design": "*"
+  }
+}
